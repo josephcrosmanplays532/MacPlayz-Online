@@ -12,8 +12,9 @@
 <body>
 
 <header>
-	<h1 style="margin:0"><img id="logo" src="../img/logo.png" alt="Wrapper: Offline"/></h1>
+	<h1 style="margin:0"><img id="logo" src="../img/logo.png" alt="Wrapper: Online"/></h1>
 	<nav id="headbuttons">
+		
 		<div class="dropdown_contain button_small">
 			<div class="dropdown_button">Make A Character</div>
 			<nav class="dropdown_menu">
@@ -31,26 +32,25 @@
 					<div class="dropdown_button">CREATE A CHARACTER</div>
 					<nav class="dropdown_menu">
 						<h2>Comedy World</h2>
-						<a href="/cc?themeId=family&amp;bs=adam">Guy (Adam)</a>
-						<a href="/cc?themeId=family&amp;bs=eve">Girl (Eve)</a>
-						<a href="/cc?themeId=family&amp;bs=bob">Fat (Bob)</a>
-						<a href="/cc?themeId=family&amp;bs=rocky">Buff (Rocky)</a>
+						<a href="/cc?themeId=family&bs=adam">Guy (Adam)</a>
+						<a href="/cc?themeId=family&bs=eve">Girl (Eve)</a>
+						<a href="/cc?themeId=family&bs=bob">Fat (Bob)</a>
+						<a href="/cc?themeId=family&bs=rocky">Buff (Rocky)</a>
 						<hr>
 						<h2>Anime</h2>
-						<a href="/cc?themeId=anime&amp;bs=guy">Guy</a>
-						<a href="/cc?themeId=anime&amp;bs=girl">Girl</a>
-						<a href="/cc?themeId=ninjaanime&amp;bs=guy">Guy (Ninja)</a>
-						<a href="/cc?themeId=ninjaanime&amp;bs=girl">Girl (Ninja)</a>
+						<a href="/cc?themeId=anime&bs=guy">Guy</a>
+						<a href="/cc?themeId=anime&bs=girl">Girl</a>
+						<a href="/cc?themeId=ninjaanime&bs=guy">Guy (Ninja)</a>
+						<a href="/cc?themeId=ninjaanime&bs=girl">Girl (Ninja)</a>
 						<hr>
 						<h2>Peepz</h2>
-						<a href="/cc?themeId=cc2&amp;bs=default">Lil Peepz</a>
-						<a href="/cc?themeId=chibi&amp;bs=default">Chibi Peepz</a>
-						<a href="/cc?themeId=ninja&amp;bs=default">Chibi Ninjas</a>
+						<a href="/cc?themeId=cc2&bs=default">Lil Peepz</a>
+						<a href="/cc?themeId=chibi&bs=default">Chibi Peepz</a>
+						<a href="/cc?themeId=ninja&bs=default">Chibi Ninjas</a>
 					</nav>
-			       </div>
 			</nav>
 		</div>
-		<a href="/go_full" class="button_big">MAKE A VIDEO</a>
+		<a href="/go_full?tray=custom" class="button_big">MAKE A VIDEO</a>
 	</nav>
 </header>
 
@@ -75,19 +75,17 @@
 
 <footer>
 	<nav id="foot-left">
-		<a href="https://josephcrosmanplays532.github.io/Wrapper-Offline-Assets/faq.html">FAQ</a>
-		<a href="https://discord.gg/yhGAetN">W:O Discord</a>
+		<a href="https://discord.gg/goanimate">Wrapper Central Discord</a>
 	</nav>
 
 	<nav id="foot-right">
-		<a href="https://josephcrosmanplays532.github.io/Wrapper-Offline-Assets">Server Page</a>
-		<a href="https://josephcrosmanplays532.github.io/Wrapper-Offline-Assets/caillou.html">Caillou</a>
+		<a href="https://wrapper.online">Server Page</a>
+		<a href="https://wrapper.online/caillou.html">Caillou</a>
 	</nav>
 </footer>
 
 
-<form enctype='multipart/form-data' action='/upload_movie' method='post'>
-	<input id='file' type="file" onchange="this.form.submit()" name='import' />
+
 </form>
 
 </body>
